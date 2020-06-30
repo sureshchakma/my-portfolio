@@ -1,5 +1,6 @@
 
 body{
+    margin: 0;
     font-family: 'Roboto Slab', serif;
 }
 h1{
@@ -10,11 +11,27 @@ h1{
     
 }
 .half-width{
-    width: 40%;
     float: left;
+    width: 40%;
     margin-left: 5%;
     padding-left: 2%;
 }
 .half-width img{
     width: 100%;
+}
+.top-banner{
+    background-image: url("images/profile/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+
+.link-button{
+    text-decoration: none;
+    background-color: royalblue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
 }
